@@ -2,7 +2,7 @@ package main
 
 // A short form for import multiple packages.
 import (
-    t "time"  // import package with an alias name
+    t "time"  // import package with an alias
     "os"
 )
 // It is the same as
