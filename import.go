@@ -2,9 +2,10 @@ package main
 
 // A short form for import multiple packages.
 import (
-    t "time"  // import package with an alias
-    "os"
+	"os"
+	t "time" // import package with an alias
 )
+
 // It is the same as
 //   import t "time"
 //   import "os"
@@ -13,6 +14,6 @@ import (
 import . "fmt"
 
 func main() {
-     // We can use Println from "fmt" without fmt.
-     Println("Hello World from process", os.Getpid(), "at", t.Now());
+	// We can use Println from "fmt" without fmt.
+	Println("Hello World from process", os.Getpid(), "at", t.Now())
 }
